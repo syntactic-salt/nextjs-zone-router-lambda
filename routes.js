@@ -30,7 +30,7 @@ module.exports = [
         origin: origins.home.static,
     },
     {
-        uriPattern: /\/[0-9]{4}\/[0-9]{2}\/[0-9]+/,
+        uriPattern: /\/shows\/[0-9]+/,
         origin: origins.show.ssr,
     },
 ];
